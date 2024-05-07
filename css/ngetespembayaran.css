@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  img{
+    width: 100px !important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .tombol {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border-style: hidden;
+    border: transparent;
+    margin: auto;
+    color: black;
+    border-radius: 20px;
+  } 
+  .tombol:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+  
+  .tombol:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  
+  h2{
+    text-align: center;
+  }
+  .card.card1{
+    background-color: #c645b1;
+  }
+  .card.card2{
+    background-color: #36a741;
+  }
+  .card.card3{
+    background-color: #c76b37;
+  }
+  .card.card4{
+    background-color: #e3bf00;
+  }
+  .card{
+    border-radius: 40px !important;
+  }

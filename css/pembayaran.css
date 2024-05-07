@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: Exobold;
+  src: url(../fonts/Exo-Bold.ttf);
+}
+
+@font-face {
+  font-family: Exo;
+  src: url(../fonts/exo.ttf);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.masa {
+  background:whitesmoke;
+  padding: 20px;
+}
+
+.nama-profil {
+  font-family: "Exobold";
+  color: #000;
+}
+
+.judul-profil {
+  font-family: "Exobold";
+  text-align: left;
+  color: #fff;
+  padding: 15px;
+}
+
+.navbar-profil {
+  padding: 20px;
+}
+
+.profil {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 35px;
+  padding: 5px 20px;
+}
+
+.pp-profil {
+  float: left;
+  width: 30%;
+}
+
+.info-profil {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.pp-profil img {
+  border-radius: 100%;
+  width: 80%;
+}
+
+.judul-profil {
+  color: #000;
+  font-family: "Exobold";
+}
+
+.profil-card {
+  background-color: rgb(204, 0, 0);
+  display: block;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 35px;
+  padding: 5px 20px;
+}
+
+.pp-profil {
+  float: left;
+  width: 50%;
+}
+
+.info-profil {
+  float: left;
+  width: 50%;
+}
+
+.pp-profil img {
+  border-radius: 100%;
+  width: 80%;
+}
+
+.gambar-profil {
+  max-width: 100px;
+  border-radius: 100%;
+}
+
+.gambar {
+  text-align: left;
+  max-width: 64px;
+}
+
+.hapus, .edit {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: hidden;
+  font-family: "Exobold";
+}
+
+
+.hapus {
+  background: #bf0e0e;
+  color: white;
+}
+
+.tombol {
+  width: 100%;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-style: hidden;
+  border: transparent;
+  margin: auto;
+  color: black;
+  border-radius: 20px;
+} 
+.tombol:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.tombol:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.teks {
+  font-family: "Exo";
+}
+
+.info-meteran {
+  font-family: "Exobold";
+  font-size: 20px;
+  color: white;
+}
+
+.info-kartu {
+  background: #ffffff;
+  padding: 20px;
+}
+
+.feature-block {
+  background: #9041ff;
+  border-radius: 15px;
+  color: white;
+  padding: 15px;
+}
+
+h2{
+  text-align: center;
+}
+.card.card1{
+  background-color: #c645b1;
+}
+.card.card2{
+  background-color: #36a741;
+}
+.card.card3{
+  background-color: #c76b37;
+}
+.card.card4{
+  background-color: #e3bf00;
+}
+.card{
+  border-radius: 40px !important;
+}

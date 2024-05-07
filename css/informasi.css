@@ -1,0 +1,16 @@
+judul-konten {
+  width: 70%;
+  float: left;
+}
+
+.konten {
+  width: 70%;
+  text-align: justify;
+  float: left;
+  display: block;
+}
+
+.konten img {
+  width: 30%;
+  float: right;
+}

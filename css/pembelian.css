@@ -1,0 +1,219 @@
+/* bagan 1 */
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/exo.ttf);
+}
+
+@font-face {
+    font-family: Exobolds;
+    src: url(../fonts/Exo-Bold.ttf);
+}
+
+.bagan1 {
+    background-color: #4b0082;
+    padding: 10px;
+}
+
+.cards {
+    padding: 15px;
+}
+
+.card-bagan1 {
+    background-color: #5a019a;
+    color: white
+}
+
+.card-bagan2 {
+    background-color: #5a019a;
+    color: white
+}
+
+.card-bagan3 {
+    background-color: #5a019a;
+    color: white
+}
+
+.mb-3 {
+    font-size: 13px;
+}
+
+.mt-4 {
+    color: black;
+    font-size: 72px;
+}
+
+.mt-2 {
+    color: black;
+}
+
+.navbar-profil {
+    padding: 20px;
+}
+
+.profil {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 35px;
+    padding: 5px 20px;
+}
+
+.pp-profil {
+    float: left;
+    width: 30%;
+}
+
+.info-profil {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.pp-profil img {
+    border-radius: 100%;
+    width: 80%;
+}
+
+/* bagan 2 */
+.bagan2 {
+    background-color: #621E64;
+}
+
+.tombol-mulai-sekarang {
+    width: 20%;
+    padding: 5px;
+}
+
+.btnmulai {
+    background-color: #522053;
+}
+
+.gambarbgn2 {
+    float: right;
+    width: 70px;
+    margin-left: 30px;
+}
+
+/* bagan 3 */
+
+.bagan3 {
+    background-color: #792a99;
+}
+
+.card-title2 {
+    font-size: 10px;
+}
+
+.bg-fitur {
+    background-color: #341E64;
+    padding: 20px;
+}
+
+.bg-fitur2 {
+    background-color: #B68DCA;
+    padding: 10px;
+}
+
+.card-title-bagan3 {
+    color: white;
+    font-size: 15px;
+}
+
+.bagan3-1,
+.bagan3-2,
+.bagan3-3,
+.bagan3-4 {
+    padding: 15px;
+    display: block;
+}
+
+.bagan3-1 {
+    background-color: #6C4AB6;
+}
+
+.bagan3-2 {
+    background-color: #E14D2A;
+}
+
+.bagan3-3 {
+    background-color: #432C7A;
+}
+
+.bagan3-4 {
+    background-color: #4FA095;
+}
+
+.fitur {
+    font-size: 18px;
+}
+
+/* teks & gambar */
+.judul {
+    color: white;
+}
+
+.utama {
+    background: #4FA095;
+    padding-top: 150px;
+}
+
+.utama-pembelian {
+    background: #831b91;
+    padding-top: 150px;
+}
+
+.judul-profil {
+    color: #000000;
+    font-family: "Exobolds";
+}
+
+.judul-dashboard {
+    color: white;
+    font-size: 32px;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    font-family: "Exobolds";
+}
+
+.info-meteran {
+    font-family: "Exobolds";
+    color: #fff;
+}
+
+.teks {
+    font-family: "Exo";
+    font-size: 18px;
+    color: white;
+    opacity: 100%;
+}
+
+.teks-hitam {
+    font-family: "Exo";
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.gambar {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.gambar-pembelian{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.card-bagan {
+    border-radius: 7px;
+}
+
+.cards {
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.tombol-pilih {
+    text-align: center;
+    width: 90%;
+}

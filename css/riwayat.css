@@ -1,0 +1,24 @@
+.profil {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 35px;
+  padding: 5px 20px;
+}
+
+.pp-profil {
+  float: left;
+  width: 30%;
+}
+
+.info-profil {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.pp-profil img {
+  border-radius: 100%;
+  width: 80%;
+}

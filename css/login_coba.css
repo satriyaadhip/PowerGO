@@ -1,0 +1,229 @@
+* {
+  margin: 3px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Exobold;
+  src: url(../fonts/Exo-Bold.ttf);
+}
+
+@font-face {
+  font-family: Exo;
+  src: url(../fonts/exo.ttf);
+}
+
+.judul {
+  font-family: "Exobold";
+  font-size: 27px;
+  color: #ffffff;
+}
+
+.teks {
+  font-family: "Exo";
+  color: #ffffff;
+}
+
+.kiri {
+  background: #75B1B5;
+  float: left;
+  position: absolute;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: #499297;
+  color: white;
+  border-radius: 10px;
+  border-style: hidden;
+
+}
+
+.submit-btn {
+  margin: 25px 0 5px;
+  font-family: "Exobold";
+  color: #0b7a75;
+  min-width: 40%;
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+.powergo {
+  font-family: "Exobold";
+  font-size: 48px;
+  color: rgb(190, 185, 185);
+}
+
+.register {
+  margin-top: 35px;
+}
+
+.register a {
+  color: rgb(23, 99, 161);
+}
+
+::placeholder {
+  color: #71adad;
+  font-family: "Exo";
+}
+
+.coba-profil {
+  display: block;
+  width: 20%;
+}
+
+
+@media (max-width: 576px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .judul {
+    font-size: 24px;
+    margin: 70px 0 100px;
+  }
+
+  .kiri {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    position: absolute;
+  }
+
+  .register{
+    text-align: center;
+  }
+
+  .login-submit {
+    text-align: center;
+  }
+  
+}
+
+/* hape */
+@media (min-width: 576px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .judul {
+    font-size: 24px;
+    margin: 70px 0 100px;
+  }
+
+  .kiri {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    position: absolute;
+  }
+  
+  .register{
+    text-align: center;
+  }
+
+  .login-submit {
+    text-align: center;
+  }
+  
+}
+
+
+/* tablet */
+@media (min-width: 768px) {
+  * {
+    margin: 2px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .judul {
+    font-size: 24px;
+    margin: 70px 0 100px;
+  }
+  
+  .kiri {
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+  }
+
+  .kanan {
+    background-image: url('../images/latar-tablet.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 98vh;
+    width: 98vw;
+  }
+  
+  .kanan h1 {
+    float: right;
+  }
+
+  .login-submit {
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .kiri {
+    width: 35%;
+    height: 98vh;
+    padding: 40px;
+  }
+
+  .kanan {
+    background-image: url('../images/latar-desktop.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 98vh;
+    width: 97vw;
+  }
+  
+  .kanan h1 {
+    float: right;
+  }
+
+  .login-submit {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .kiri {
+    width: 30%;
+    height: 98vh;
+    padding: 50px;
+  }
+
+  .kanan {
+    background-image: url('../images/latar-desktopfull.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 98vh;
+    width: 97vw;
+  }
+  
+  .kanan h1 {
+    float: right;
+  }
+
+  .login-submit {
+    text-align: left;
+  }
+
+}

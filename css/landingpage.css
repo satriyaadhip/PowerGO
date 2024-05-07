@@ -1,0 +1,232 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Exobold;
+  src: url(../fonts/Exo-Bold.ttf);
+}
+
+@font-face {
+  font-family: Exo;
+  src: url(../fonts/exo.ttf);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.profil {
+  padding: 15px;
+}
+
+.pp-profil2{
+  float: right;
+  width: 40%;
+}
+
+.info-profil2 {
+  float: left;
+  width: 60%;
+}
+
+.pp-profil1,
+.pp-profil2 img {
+  width: 90%;
+}
+
+.pp-profil3{
+  max-width: 120px;
+  border-radius: 100%;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+/* Judul pertama */
+.logo {
+  margin: 75px 5px;
+  background: #e7e7e7;
+  border-radius: 100%;
+}
+
+.ke-login {
+  background: #439A97;
+  padding: 30px;
+  margin-top: 300px;
+  text-align: centser;
+}
+
+.ke-login h1 {
+  font-family: "Exobold";
+  font-size: 48px;
+  color: #fff;
+}
+
+.ke-login p {
+  font-family: "Exo";
+  color: #fff;
+}
+
+.next-btn {
+  margin: 30px 5px;
+  width: 70px;
+}
+
+/* End of judul pertama */
+
+
+/* Komponen */
+.judul-teks {
+  font-family: "Exobold";
+  font-size: 32px;
+  color: white;
+}
+
+.teks {
+  font-family: "Exo";
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.teks-hitam {
+  font-family: "Exo";
+  color: #000;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sections {
+  padding: 18px;
+}
+
+/* End of komponen */
+
+
+/* Section 1 */
+.section-1 {
+  background: #62B6B7;
+  display: block;
+  padding: 40px;
+}
+
+.kiri {
+  width: 70%;
+}
+
+.kanan {
+  width: 30%;
+}
+
+.section-2 {
+  background: #7F167F;
+  padding: 150px 3px;
+}
+
+.section-3 {
+  background: #3F0071;
+  padding: 150px 3px;
+}
+
+.section-4 {
+  background: #4fa095;
+  padding: 150px 3px;
+}
+
+.section-5 {
+  background: #e7e7e7;
+  padding: 20px;
+
+}
+
+.gambar {
+  padding: 10px;
+}
+
+.gambar-1 {
+  float: right;
+  width: 100px;
+}
+
+
+@media (max-width: 576px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .judul {
+    font-size: 24px;
+    margin: 70px 0 100px;
+  }
+
+  .kiri {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    position: absolute;
+  }
+
+  .register {
+    text-align: center;
+  }
+
+  .login-submit {
+    text-align: center;
+  }
+
+}
+
+/* hape */
+@media (min-width: 576px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .judul {
+    font-size: 24px;
+    margin: 70px 0 100px;
+  }
+
+  .kiri {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    position: absolute;
+  }
+
+  .register {
+    text-align: center;
+  }
+
+  .login-submit {
+    text-align: center;
+  }
+
+}
+
+
+/* tablet */
+@media (min-width: 768px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  @media (min-width: 992px) {
+    * {
+      margin: 0px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    * {
+      margin: 0px;
+    }
+  }
+}
